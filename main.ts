@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    Throttle += -5
+    Throttle += -4
 })
 input.onGesture(Gesture.ScreenDown, function () {
     Throttle = 0
@@ -14,7 +14,7 @@ input.onButtonPressed(Button.AB, function () {
     Throttle = 0
 })
 input.onButtonPressed(Button.B, function () {
-    Throttle += 5
+    Throttle += 4
 })
 input.onGesture(Gesture.Shake, function () {
     Throttle = 0
